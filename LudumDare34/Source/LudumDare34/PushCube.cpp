@@ -27,27 +27,3 @@ void APushCube::Tick( float DeltaTime )
 {
 	Super::Tick( DeltaTime );
 }
-
-void APushCube::NotifyHit(class UPrimitiveComponent* MyComp, class AActor* Other, class UPrimitiveComponent* OtherComp, bool bSelfMoved, FVector HitLocation, FVector HitNormal, FVector NormalImpulse, const FHitResult& Hit)
-{
-	if (((ALudumDare34Character*)Other) != NULL)
-	{
-		
-	}
-}
-
-void APushCube::StartTouchBox(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult &SweepResult)
-{
-	if (((ALudumDare34Character*)OtherActor) != NULL)
-	{
-
-	}
-}
-
-void APushCube::EndTouchBox(class AActor* OtherActor, class UPrimitiveComponent* OtherComp, int32 OtherBodyIndex) 
-{
-	if (((ALudumDare34Character*)OtherActor) != NULL)
-	{
-
-	}
-}

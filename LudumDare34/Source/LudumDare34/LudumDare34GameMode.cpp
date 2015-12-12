@@ -13,5 +13,5 @@ ALudumDare34GameMode::ALudumDare34GameMode()
 	DefaultPawnClass = PlayerPawnClassFinder.Class;
 
 	// use our custom HUD class
-	HUDClass = ALudumDare34HUD::StaticClass();
+	//HUDClass = ALudumDare34HUD::StaticClass();
 }
